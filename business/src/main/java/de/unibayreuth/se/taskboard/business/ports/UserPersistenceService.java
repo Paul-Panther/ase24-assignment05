@@ -13,7 +13,7 @@ import java.util.UUID;
  * Interface for the implementation of the user data service that the business layer provides as a port.
  */
 public interface UserPersistenceService {
-    void clear();
+    void  clear();
     @NonNull
     List<User> getAll();
     @NonNull

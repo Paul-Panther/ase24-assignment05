@@ -7,6 +7,7 @@ import org.springframework.lang.Nullable;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
+import java.util.Optional;
 import java.util.UUID;
 
 
@@ -21,4 +22,6 @@ public class User implements Serializable {
         private LocalDateTime createdAt = LocalDateTime.now(ZoneId.of("UTC")); // set on task creation
         @NonNull
         private String name;
+
+
 }
